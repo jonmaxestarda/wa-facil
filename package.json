@@ -1,0 +1,23 @@
+{
+  "name": "wa-facil",
+  "version": "1.0.0",
+  "description": "Wrapper en español, fácil de usar, para @itsliaaa/baileys (WhatsApp Web)",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "ejemplo:basico": "node ejemplos/01-basico.js",
+    "ejemplo:comandos": "node ejemplos/02-comandos.js",
+    "ejemplo:interactivos": "node ejemplos/03-interactivos.js",
+    "ejemplo:grupos": "node ejemplos/04-grupos.js"
+  },
+  "dependencies": {
+    "@itsliaaa/baileys": "latest"
+  },
+  "optionalDependencies": {
+    "qrcode-terminal": "^0.12.0"
+  },
+  "keywords": ["whatsapp", "baileys", "bot", "wrapper", "español"],
+  "license": "MIT"
+}
